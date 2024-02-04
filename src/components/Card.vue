@@ -18,7 +18,7 @@ defineProps<CardProps>()
         <img class="rounded-t-lg" :src="image"  />
     </div>
     <div class="p-5">
-        <div v-if="title" class="flex justify-between items-center border-b border-gray-200 pb-1 mb-3">
+        <div v-if="title" class="flex justify-between items-center border-b border-gray-200 pb-2 mb-3">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ title }}</h5>
             <BaseButton text="Add Book" />
         </div>
