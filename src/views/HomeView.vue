@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useRouter } from 'vue-router'
 import InputField from '@/components/InputField.vue'
 import BaseButton from '@/components/BaseButton.vue'
+const rouer = useRouter()
 const email = ref('')
+
 
 function test() {
     console.log('click on test');
+    rouer.push({ name: 'profile' })
 }
 </script>
 
