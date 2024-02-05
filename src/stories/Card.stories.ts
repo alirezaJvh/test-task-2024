@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import Card from '../components/Card.vue';
+import BaseCard from '../components/BaseCard.vue';
 
 const meta = {
-  title: 'Example/Card',
-  component: Card,
+  title: 'Example/BaseCard',
+  component: BaseCard,
   tags: ['autodocs'],
-} satisfies Meta<typeof Card>;
+} satisfies Meta<typeof BaseCard>;
 
 export default meta;
 

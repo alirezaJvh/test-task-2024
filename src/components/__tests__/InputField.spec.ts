@@ -5,7 +5,7 @@ import InputField from '../InputField.vue'
 
 describe('Input Field', () => {
     it('renders properly', () => {
-      const wrapper = mount(InputField, { props: { label: 'Test', value: '', placeholder: 'Test' } })
+      const wrapper = mount(InputField, { props: { label: 'Test', modelValue: '', placeholder: 'Test' } })
       expect(wrapper.props('label')).toBe('Test')
       expect(wrapper.props('placeholder')).toBe('Test')
     })

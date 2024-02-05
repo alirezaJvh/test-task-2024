@@ -8,7 +8,7 @@ type CardProps = {
 
 defineProps<CardProps>()
 
-const emit = defineEmits('click:action')
+const emit = defineEmits(['click:action'])
 
 function onClickButton() {
     emit('click:action')
