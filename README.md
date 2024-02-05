@@ -39,6 +39,12 @@ npm run dev
 npm run build
 ```
 
+### Run Storybook
+
+```sh
+npm run storybook
+```
+
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
