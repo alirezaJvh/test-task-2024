@@ -15,7 +15,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
     args: {
       label: 'Email',
-      value: '',
+      modelValue: '',
       placeholder: 'Enter your email'
     },
   };
